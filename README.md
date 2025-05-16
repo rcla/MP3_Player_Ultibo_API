@@ -14,6 +14,7 @@ Based on the [20_pwm_sound](https://github.com/ultibohub/API/tree/master/samples
 - Copy the `test.mp3` file to the micro SD.
 
 > Note: The mp3 file has been downloaded from this [site](https://github.com/sank29/Star-Wars).
+> You can use another mp3 file, but be sure to change the name within the program.
 
 <br></br>
 
