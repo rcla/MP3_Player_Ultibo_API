@@ -1,6 +1,6 @@
 /*
  *
- * MP3 Audio for Ultibo API with libmad
+ * MP3 Player with Ultibo API and libmad
  *
  *
  * Based on the 20_pwm_sound example, https://github.com/ultibohub/API/tree/master/samples/20_pwm_sound
@@ -463,7 +463,6 @@ static uint32_t read_decode_MP3file(char *filename)
     mad_stream_buffer(&mad_stream, buffer, fnsize);
     mad_stream.error = MAD_ERROR_NONE;
 
-    // static char bufout[80 * 1024 * 1024];
     static char stream[1152 * 4];
     u_int32_t nlocation;
     nmp3i = 0;
