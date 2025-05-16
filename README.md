@@ -15,6 +15,25 @@ Based on the [20_pwm_sound](https://github.com/ultibohub/API/tree/master/samples
 
 > Note: The mp3 file has been downloaded from this [site](https://github.com/sank29/Star-Wars).
 
+<br></br>
+
+## Program
+- With the test.mp3 file, it reads it, decodes it, and obtains relevant information.
+- Gets the duration of the song in hh:mm:ss.
+- It is then played back via PWM with the output of the jack.
+
+On screen displays:
+```
+The file size of test.mp3 is: 2105160 bytes
+Read MP3 File OK
+
+Decoding the mp3 file..
+
+Duration: 00:02:11
+Bitrate: 128000 bps
+Number channels: 2
+Sample Rate: 44100 hz
+```
 
 <br></br>
 
